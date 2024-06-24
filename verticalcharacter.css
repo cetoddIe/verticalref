@@ -1,0 +1,375 @@
+:root {
+  background: #444444 url(https://goldenfreddy.neocities.org/images/noisetexdense.png);
+  background-size: 300px;
+  margin: auto;
+  font-family: "SparkyStones";
+}
+
+@font-face {
+  font-family: "MarioKart";
+  src: url("/MKWII.otf")format("opentype");
+}
+
+@font-face {
+  font-family: "SparkyStones";
+  src: url("/SparkyStones.ttf")format("truetype");
+}
+
+.maincontain {
+  display: block;
+  margin: auto;
+  padding: 3vh 2vw;
+  height: 91vh;
+  width: 95vw;
+  max-width: 1500px;
+  max-height: 700px;
+}
+
+.mainflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  align-content: center;
+  height: 100%;
+  width: auto;
+  gap: 10px;
+}
+
+ul {
+  width: fit-content;
+  padding: 0;
+  color: #333333;
+  text-align: left;
+  font-size: 14pt;
+  line-height: 26px;
+  margin-left: -3px;
+  list-style: square inside url("https://goldenfreddy.neocities.org/images/deviantart/emoticons/bulletwhite.png");
+}
+
+/* left boxes */
+
+.leftsection {
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 49%;
+  min-width: 300px;
+  height: 100%;
+  gap: 15px;
+}
+
+.reference {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 1;
+  width: 75%;
+  height: 100%;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(221, 221, 221, 0.5);
+  outline: dashed #dddddd 2.5px;
+  outline-offset: -1px;
+  border-radius: 5px;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.reference img {
+  margin: 10px 20px;
+  max-height: 91%;
+  max-width: 91%;
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.3));
+}
+
+.reftext {
+  display: block;
+  width: 200%;
+  height: 30px;
+  line-height: 32px;
+  color: #232323;
+  background-color: rgba(84, 84, 84, 0.5);
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20pt;
+  padding: 5px;
+  border: dashed #dddddd 2.5px;
+  border-style: dashed none;
+}
+
+.palettebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 15%;
+  min-width: 100px;
+  height: 92%;
+  background-color: rgba(221, 221, 221, 0.5);
+  outline: dashed #dddddd 2.5px;
+  outline-offset: -1px;
+  border-radius: 5px;
+  overflow: hidden;
+  gap: 0;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.palettecolor {
+  width: 100%;
+  line-height: 65px;
+  min-height: 50px;
+  flex-grow: 1;
+  margin: 0;
+  text-align: center;
+  font-size: 13pt;
+}
+
+.palettetext {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.9px rgba(0, 0, 0, 0.5);
+  font-family: "MarioKart";
+}
+
+#one {
+  background-color: #111;
+}
+
+#two {
+  background-color: #222;
+}
+
+#three {
+  background-color: #333;
+}
+
+#four {
+  background-color: #444;
+}
+
+#five {
+  background-color: #555;
+}
+
+#six {
+  background-color: #666;
+}
+
+#seven {
+  background-color: #777;
+}
+
+#eight {
+  background-color: #888;
+}
+
+#nine {
+  background-color: #999;
+}
+
+#ten {
+  background-color: #a9a9a9;
+}
+
+/* right boxes */
+
+.rightsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 49%;
+  min-width: 300px;
+  height: 100%;
+  min-height: 630px;
+  text-align: center;
+  gap: 15px;
+  color: #232323;
+}
+
+.sectionone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 15px;
+  height: 18%;
+  width: 100%;
+}
+
+.nametag {
+  flex-basis: 1;
+  width: 90%;
+  height: 50%;
+  font-size: 26pt;
+  line-height: 62px;
+  background-color: rgba(221, 221, 221, 0.5);
+  outline: dashed #dddddd 2.5px;
+  outline-offset: -1px;
+  border-radius: 5px;
+  overflow: hidden;
+  word-break: break-word;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.detailtag {
+  width: 95%;
+  height: 40%;
+  font-size: 22pt;
+  line-height: 50px;
+  background-color: rgba(221, 221, 221, 0.5);
+  outline: dashed #dddddd 2.5px;
+  outline-offset: -1px;
+  border-radius: 5px;
+  overflow: hidden;
+  word-break: break-word;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sectiontwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 25px;
+  height: 30%;
+  width: 90%;
+}
+
+.twobox {
+  width: 45%;
+  height: 100%;
+  padding: 0 20px;
+  font-size: 16pt;
+  background-color: rgba(221, 221, 221, 0.5);
+  outline: dashed #dddddd 2.5px;
+  outline-offset: -1px;
+  border-radius: 5px;
+  overflow: hidden;
+  word-break: break-word;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.twobox p {
+  margin-top: 18px;
+  margin-bottom: -10px;
+}
+
+.sectionthree {
+  font-size: 16pt;
+  height: 45%;
+  width: 90%;
+  padding: 0 20px;
+  background-color: rgba(221, 221, 221, 0.5);
+  outline: dashed #dddddd 2.5px;
+  outline-offset: -1px;
+  border-radius: 5px;
+  overflow: hidden;
+  word-break: break-word;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.threetext {
+  display: block;
+  width: 110%;
+  height: 25px;
+  line-height: 28px;
+  color: #232323;
+  background-color: rgba(84, 84, 84, 0.5);
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18pt;
+  margin: 10px -30px;
+  padding: 5px;
+  border: dashed #dddddd 2.5px;
+  border-style: dashed none;
+}
+
+.threegallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  align-content: center;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 15px 10px;
+  gap: 15px 8px;
+}
+
+.threegallery img {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+/* mobile resizer */
+
+@media screen and (orientation: portrait), (max-width: 800px) {
+
+  :root {
+    margin-top: 320px;
+}
+
+  .maincontain {
+    display: block;
+    margin: auto;
+    padding: 3vh 2vw;
+    height: 65vh;
+    width: 94vw;
+    max-width: 700px;
+    gap: 30px 0;
+}
+
+  .leftsection, .rightsection {
+    width: 96%;
+    max-height: 550px;
+}
+
+  .palettecolor {
+    line-height: 50px;
+    min-height: 25px;
+}
+
+  .nametag {
+    font-size: 13pt;
+}
+
+  .detailtag {
+    font-size: 11pt;
+}
+
+  ul {
+    font-size: 7pt;
+    line-height: 20px;
+    margin-left: -9px;
+}
+
+  .sectiontwo {
+    width: 100%;
+    gap: 10px;
+}
+
+  .sectionthree {
+    width: 94%;
+    max-height: 250px;
+}
+
+  .threegallery {
+    width: 100%;
+    padding: 15px 5px;
+    gap: 15px 5px;
+}
+
+  .threegallery img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}}
